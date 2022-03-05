@@ -13,3 +13,14 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.container{
+    background-color: #eee;
+    min-height: 500px;
+    width: 100%;
+    max-width: 600px;
+    color: #fff;
+    margin: 200px auto;
+    border-radius: 15px;
+    height: auto;
+    background: linear-gradient(to bottom, #007193 40%, #06024e) ;
+}
