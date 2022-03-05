@@ -11,4 +11,5 @@ function age(){
     var female = document.getElementById('female');
     console.log(typeof male.checked)
     console.log(typeof false)
-    
+
+    var MaleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
