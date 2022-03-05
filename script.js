@@ -64,3 +64,6 @@ function age(){
     console.log(akanName)
     var dayOfBirth = Days[dow]
     console.log(dayOfBirth)
+
+    document.getElementById('age').innerHTML = 'Your akan name is ' +akanName+ "";
+}
