@@ -25,7 +25,7 @@ body{
     background: linear-gradient(to bottom, #007193 40%, #06024e) ;
 }
 .radio{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-top: 20px;
     padding-top: 100px;
     color: #f8fcff;
@@ -51,4 +51,10 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+}
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
 }
