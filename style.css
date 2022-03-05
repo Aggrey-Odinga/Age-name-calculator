@@ -58,3 +58,27 @@ body{
     margin-left: 20px;
     display: inline-block;
 }
+.title{
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    color: #ebf1f7;
+    word-spacing: 2.7px;
+}
+input[type=number]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    border-radius: 20px;
+    color: #000305;
+    font-size: 17px;
+    padding: 12px;
+}
+input[type=number]:focus{
+    background: #fafcfd;
+    border: 2px solid orange;
+}
