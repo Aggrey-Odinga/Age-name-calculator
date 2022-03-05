@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,36 @@
     <title>Akan-Name-Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <form onsubmit="age()" id="form_age">
             <div class="base">
                 <h4>Age-Name Calculator</h4>
                 <div class="radio">
-                    <p>Fancy knowing your traditional Akan name?<br> Enter your birthday information below, then select your gender and get to know your Akan
+                    <p>Fancy knowing your traditional Akan name?<br> Enter your birthday information below, then select
+                        your gender and get to know your Akan
                         name:</p>
                 </div>
+                <div class="block">
+                    <p class="title">Date</p>
+                    <input type="number" id="date" placeholder="dd" minlenght="1" maxlength="2" min="0" required />
+                </div>
+                <div class="block">
+                    <p class="title">Month</p>
+                    <input type="number" id="month" placeholder="mm" minlenght="1" maxlength="2" min="0" required />
+                </div>
+                <div class="block">
+                    <p class="title">Year</p>
+                    <input type="number" id="year" placeholder="yyyy" minlenght="4" maxlength="4" min="0" required />
+                </div>
             </div>
-        
-        
-        
+
+
+
         </form>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
