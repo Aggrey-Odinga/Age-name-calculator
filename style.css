@@ -24,3 +24,17 @@ body{
     height: auto;
     background: linear-gradient(to bottom, #007193 40%, #06024e) ;
 }
+.radio{
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding-top: 100px;
+    color: #f8fcff;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;  
+}
+.radio p{
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
