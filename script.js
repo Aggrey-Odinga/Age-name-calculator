@@ -46,3 +46,10 @@ function age(){
         alert("select gender")
         return
     } 
+        var CC = parseInt(strYear.slice(0, 2));
+    console.log("century" + CC)
+    var YY = parseInt(strYear.slice(2, 4));
+    console.log("year" + YY)
+    var dayOfWeek = (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + day ) % 7
+    console.log(Math.round(dayOfWeek))
+    
