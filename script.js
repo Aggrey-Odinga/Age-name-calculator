@@ -52,4 +52,15 @@ function age(){
     console.log("year" + YY)
     var dayOfWeek = (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + day ) % 7
     console.log(Math.round(dayOfWeek))
-    
+
+       // Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+    var akanName = "";
+    var dow = Math.round(dayOfWeek)
+    if (male.checked){
+        akanName = MaleAkanNames[dow]
+    }else {
+        akanName = FemaleAkanNames[dow]
+    }
+    console.log(akanName)
+    var dayOfBirth = Days[dow]
+    console.log(dayOfBirth)
